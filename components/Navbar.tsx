@@ -127,16 +127,6 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/noor_resume.pdf" target="_blank">
-            <motion.button
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
-              className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
-            >
-              Resume
-            </motion.button>
-          </a>
         </div>
         {/* ============== Small Icon Start here =========== */}
         <div

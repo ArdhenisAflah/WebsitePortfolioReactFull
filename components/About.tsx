@@ -9,34 +9,19 @@ const About = () => {
       id="about"
       className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8"
     >
-      <SectionTitle title="About Me" titleNo="01" />
+      <SectionTitle title="Tentang Saya" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            Hello! nama saya Ardhenis Muhammad Aflah dan mempunyai ketertarikan minat pada perkembangan IT Di Indonesia. 
+            Saya berfokus pada pengembangan web dimulai masuk SMK sekitar tahun 2021 namun akhir-akhir ini memutuskan untuk mendalami keilmuan teknologi permainan
+            khususnya 3D modelling sebelumnya juga ikut aktif dalam pertandingan Competitive Programming di Codechef maupun TOKI TLX indonesia disaat SMP —
+            dan pada akhirnya membuat beberapa project dari berbagai bidang IT secara umum.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
-            <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
-            </span>
+            Perjalanan saya dibidang IT bisa dibilang baru dimulai dan perlu banyak belajar dari praktisi dan ahli IT.
           </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
-          </p>
-          <p>Here are a few technologies I have been working with recently:</p>
+          <p>Berikut beberapa teknologi yang saya gunakan akhir-akhir ini:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -48,37 +33,31 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Next.js
+              Laravel 9.0
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              React
+              React.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Node.js
+              Pixelorama
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              TypeScript
+              MySQL
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Express.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              MongoDB
+              Blender
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
